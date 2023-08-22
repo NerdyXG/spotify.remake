@@ -1,0 +1,53 @@
+:root {
+    --lightpink: #FFC0CB;
+    --darkpink: #FF8DA1;
+    --faintwhite: #EAE1E1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--lightpink);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+/* .sidebar {
+    background: red;
+} */
+
+.home-search-card {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    background: var(--darkpink);
+    padding-top: 20px;
+}
+
+.home-search-card .text-on-cards .home-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.home-search-card .text-on-cards .search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    color: var(--faintwhite);
+}
+
+.faint-text {
+    color: var(--faintwhite);
+}
+
+.text-on-cards {
+    display: flex;
+    padding: 5px 40px;
+    align-content: baseline;
+}
